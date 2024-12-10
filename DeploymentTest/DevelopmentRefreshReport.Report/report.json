@@ -1,0 +1,42 @@
+{
+  "config": "{\"version\":\"5.24\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY21SU07\",\"version\":\"5.24\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"exportDataMode\":1},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY21SU07",
+            "path": "BaseThemes/CY21SU07.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[{\"name\":\"Filter8d2eb014cf3b95224259\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"WGS dbo_fa_cfaseasonExtensionBase\"}},\"Property\":\"fa_SeasonStartDate\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"w\",\"Entity\":\"WGS dbo_fa_cfaseasonExtensionBase\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Comparison\":{\"ComparisonKind\":2,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"w\"}},\"Property\":\"fa_SeasonStartDate\"}},\"Right\":{\"DateSpan\":{\"Expression\":{\"Literal\":{\"Value\":\"datetime'2019-07-01T00:00:00'\"}},\"TimeUnit\":5}}}}}]},\"type\":\"Advanced\",\"howCreated\":1}]",
+      "height": 720.00,
+      "name": "ReportSection",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"2cfaca4be1e68e01da59\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.4902687673772,\"y\":0,\"z\":0,\"width\":928.8600556070435,\"height\":720.0741427247451}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"WGS dbo_fa_cfaseasonExtensionBase.fa_name\"},{\"queryRef\":\"WGS dbo_fa_cfaseasonExtensionBase.fa_SeasonStartDate\"},{\"queryRef\":\"WGS dbo_fa_cfaseasonExtensionBase.fa_SeasonEndDate\"},{\"queryRef\":\"Sum(WGS dbo_fa_cfaseasonExtensionBase.fa_clubsitevisitstarget)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"w\",\"Entity\":\"WGS dbo_fa_cfaseasonExtensionBase\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"w\"}},\"Property\":\"fa_SeasonStartDate\"},\"Name\":\"WGS dbo_fa_cfaseasonExtensionBase.fa_SeasonStartDate\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"w\"}},\"Property\":\"fa_clubsitevisitstarget\"}},\"Function\":0},\"Name\":\"Sum(WGS dbo_fa_cfaseasonExtensionBase.fa_clubsitevisitstarget)\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"w\"}},\"Property\":\"fa_SeasonEndDate\"},\"Name\":\"WGS dbo_fa_cfaseasonExtensionBase.fa_SeasonEndDate\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"w\"}},\"Property\":\"fa_name\"},\"Name\":\"WGS dbo_fa_cfaseasonExtensionBase.fa_name\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"w\"}},\"Property\":\"fa_SeasonStartDate\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 720.07,
+          "width": 928.86,
+          "x": 9.49,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "PFF OrganisationDB test"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "505010c7-a1b6-4a4d-82b1-a9ffc5b91476"
+  }
+}

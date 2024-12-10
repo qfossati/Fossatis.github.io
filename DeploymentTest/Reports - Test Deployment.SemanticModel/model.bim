@@ -1,0 +1,495 @@
+{
+  "compatibilityLevel": 1550,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.96.1061.0 (21.08)"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"pbi Qualification Counts\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "DynamicImprovement": "HighConfidence",
+            "Language": "en-US",
+            "Version": "1.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "en-GB",
+    "tables": [
+      {
+        "name": "pbi Qualification Counts",
+        "annotations": [
+          {
+            "name": "PBI_DescriptionAtRefresh"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "CountyName",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "Format",
+                "value": "<Format Format=\"Text\" />"
+              },
+              {
+                "name": "DataTypeAtRefresh",
+                "value": "String#####not a type"
+              },
+              {
+                "name": "PBI_NameAtRefresh",
+                "value": "CountyName"
+              },
+              {
+                "name": "PBI_WasHiddenAtRefresh",
+                "value": "False"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "644fece9-0f5c-4a75-bd51-3ede789dd76b",
+            "sourceColumn": "CountyName",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Count of No SOS Briefing",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "Format",
+                "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" />"
+              },
+              {
+                "name": "DataTypeAtRefresh",
+                "value": "Int64#####not a type"
+              },
+              {
+                "name": "PBI_NameAtRefresh",
+                "value": "Count of No SOS Briefing"
+              },
+              {
+                "name": "PBI_WasHiddenAtRefresh",
+                "value": "False"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "d86b3c0e-bddf-401f-a641-9cde917d0ae7",
+            "sourceColumn": "Count of No SOS Briefing",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Count of Staff With Induction",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "Format",
+                "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" />"
+              },
+              {
+                "name": "DataTypeAtRefresh",
+                "value": "Int64#####not a type"
+              },
+              {
+                "name": "PBI_NameAtRefresh",
+                "value": "Count of Staff With Induction"
+              },
+              {
+                "name": "PBI_WasHiddenAtRefresh",
+                "value": "False"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "9a9c5158-fa61-497d-b0d0-fe91b51f7a93",
+            "sourceColumn": "Count of Staff With Induction",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Count of Staff With No Induction",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "Format",
+                "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" />"
+              },
+              {
+                "name": "DataTypeAtRefresh",
+                "value": "Int64#####not a type"
+              },
+              {
+                "name": "PBI_NameAtRefresh",
+                "value": "Count of Staff With No Induction"
+              },
+              {
+                "name": "PBI_WasHiddenAtRefresh",
+                "value": "False"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "fd699e2b-3e2a-4646-b68a-f36d4104c637",
+            "sourceColumn": "Count of Staff With No Induction",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Count of Referees With No In Date Training",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "Format",
+                "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" />"
+              },
+              {
+                "name": "DataTypeAtRefresh",
+                "value": "Int64#####not a type"
+              },
+              {
+                "name": "PBI_NameAtRefresh",
+                "value": "Count of Referees With No In Date Training"
+              },
+              {
+                "name": "PBI_WasHiddenAtRefresh",
+                "value": "False"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "e84cc7bf-b6b6-43c5-9c71-37af9c13a185",
+            "sourceColumn": "Count of Referees With No In Date Training",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Count of Referees With In Date Training",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "Format",
+                "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" />"
+              },
+              {
+                "name": "DataTypeAtRefresh",
+                "value": "Int64#####not a type"
+              },
+              {
+                "name": "PBI_NameAtRefresh",
+                "value": "Count of Referees With In Date Training"
+              },
+              {
+                "name": "PBI_WasHiddenAtRefresh",
+                "value": "False"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "3c6fb67f-3307-4b27-b645-e68dce759ccd",
+            "sourceColumn": "Count of Referees With In Date Training",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Count of Referees Mentors Observers With In Date Training",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "Format",
+                "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" />"
+              },
+              {
+                "name": "DataTypeAtRefresh",
+                "value": "Int64#####not a type"
+              },
+              {
+                "name": "PBI_NameAtRefresh",
+                "value": "Count of Referees Mentors Observers With In Date Training"
+              },
+              {
+                "name": "PBI_WasHiddenAtRefresh",
+                "value": "False"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "7f498de7-db87-4f49-b3ad-323e4fb0102e",
+            "sourceColumn": "Count of Referees Mentors Observers With In Date Training",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Count of Referees Mentors Observers With No In Date Training",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "Format",
+                "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" />"
+              },
+              {
+                "name": "DataTypeAtRefresh",
+                "value": "Int64#####not a type"
+              },
+              {
+                "name": "PBI_NameAtRefresh",
+                "value": "Count of Referees Mentors Observers With No In Date Training"
+              },
+              {
+                "name": "PBI_WasHiddenAtRefresh",
+                "value": "False"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "e75b68df-128b-4073-b772-c7e881b8ccbd",
+            "sourceColumn": "Count of Referees Mentors Observers With No In Date Training",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Count of Club Welfare Officers With In Date Safeguarding Training",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "Format",
+                "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" />"
+              },
+              {
+                "name": "DataTypeAtRefresh",
+                "value": "Int64#####not a type"
+              },
+              {
+                "name": "PBI_NameAtRefresh",
+                "value": "Count of Club Welfare Officers With In Date Safeguarding Training"
+              },
+              {
+                "name": "PBI_WasHiddenAtRefresh",
+                "value": "False"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "3fdd089e-a578-4ec9-9d4c-9bd978326085",
+            "sourceColumn": "Count of Club Welfare Officers With In Date Safeguarding Training",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Count of Club Welfare Officers With No In Date Safeguarding  Training",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "Format",
+                "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" />"
+              },
+              {
+                "name": "DataTypeAtRefresh",
+                "value": "Int64#####not a type"
+              },
+              {
+                "name": "PBI_NameAtRefresh",
+                "value": "Count of Club Welfare Officers With No In Date Safeguarding  Training"
+              },
+              {
+                "name": "PBI_WasHiddenAtRefresh",
+                "value": "False"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "d8a60d4b-5534-42d9-904f-e3138cdccfe1",
+            "sourceColumn": "Count of Club Welfare Officers With No In Date Safeguarding  Training",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Count of Club Welfare Officers With In Date Welfare Officers Training",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "Format",
+                "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" />"
+              },
+              {
+                "name": "DataTypeAtRefresh",
+                "value": "Int64#####not a type"
+              },
+              {
+                "name": "PBI_NameAtRefresh",
+                "value": "Count of Club Welfare Officers With In Date Welfare Officers Training"
+              },
+              {
+                "name": "PBI_WasHiddenAtRefresh",
+                "value": "False"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "e86b677e-6ee6-42bf-bcbc-83bbdc85fb8d",
+            "sourceColumn": "Count of Club Welfare Officers With In Date Welfare Officers Training",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Count of Club Welfare Officers With No In Date Welfare Officers Training",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "Format",
+                "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" />"
+              },
+              {
+                "name": "DataTypeAtRefresh",
+                "value": "Int64#####not a type"
+              },
+              {
+                "name": "PBI_NameAtRefresh",
+                "value": "Count of Club Welfare Officers With No In Date Welfare Officers Training"
+              },
+              {
+                "name": "PBI_WasHiddenAtRefresh",
+                "value": "False"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "a522a51b-3c94-4e14-9fbb-d9c9a15fef27",
+            "sourceColumn": "Count of Club Welfare Officers With No In Date Welfare Officers Training",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Count of League Officials With In Date Training",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "Format",
+                "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" />"
+              },
+              {
+                "name": "DataTypeAtRefresh",
+                "value": "Int64#####not a type"
+              },
+              {
+                "name": "PBI_NameAtRefresh",
+                "value": "Count of League Officials With In Date Training"
+              },
+              {
+                "name": "PBI_WasHiddenAtRefresh",
+                "value": "False"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "466e2968-218e-424a-a903-9951ef73e78b",
+            "sourceColumn": "Count of League Officials With In Date Training",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Count of League Officials With No In DateTraining",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "Format",
+                "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" />"
+              },
+              {
+                "name": "DataTypeAtRefresh",
+                "value": "Int64#####not a type"
+              },
+              {
+                "name": "PBI_NameAtRefresh",
+                "value": "Count of League Officials With No In DateTraining"
+              },
+              {
+                "name": "PBI_WasHiddenAtRefresh",
+                "value": "False"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "501b7146-9e39-4e3e-b7ac-9d4a85181a0a",
+            "sourceColumn": "Count of League Officials With No In DateTraining",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "7f81eb01-0672-4161-b05f-1c77f656fb8c",
+        "partitions": [
+          {
+            "name": "pbi Qualification Counts-02470a19-bc61-47c3-a2e2-5ebe925029be",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Database(\"FADEV-DEVSQL1\", \"FADM_Safeguarding\"),",
+                "    #\"pbi_Qualification Counts\" = Source{[Schema=\"pbi\",Item=\"Qualification Counts\"]}[Data]",
+                "in",
+                "    #\"pbi_Qualification Counts\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

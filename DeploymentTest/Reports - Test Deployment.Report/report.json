@@ -1,0 +1,42 @@
+{
+  "config": "{\"version\":\"5.24\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY21SU07\",\"version\":\"5.24\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"exportDataMode\":1},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY21SU07",
+            "path": "BaseThemes/CY21SU07.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Deployment Test",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"1b4b06786be1cb5fe8be\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":0,\"width\":1167.1510204081633,\"height\":719.934693877551}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"pbi Qualification Counts.CountyName\"},{\"queryRef\":\"Sum(pbi Qualification Counts.Count of Referees Mentors Observers With No In Date Training)\"},{\"queryRef\":\"Sum(pbi Qualification Counts.Count of Referees Mentors Observers With In Date Training)\"},{\"queryRef\":\"Sum(pbi Qualification Counts.Count of League Officials With No In DateTraining)\"},{\"queryRef\":\"Sum(pbi Qualification Counts.Count of Club Welfare Officers With In Date Safeguarding Training)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"pbi Qualification Counts\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"CountyName\"},\"Name\":\"pbi Qualification Counts.CountyName\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Count of Referees Mentors Observers With No In Date Training\"}},\"Function\":0},\"Name\":\"Sum(pbi Qualification Counts.Count of Referees Mentors Observers With No In Date Training)\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Count of Referees Mentors Observers With In Date Training\"}},\"Function\":0},\"Name\":\"Sum(pbi Qualification Counts.Count of Referees Mentors Observers With In Date Training)\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Count of League Officials With No In DateTraining\"}},\"Function\":0},\"Name\":\"Sum(pbi Qualification Counts.Count of League Officials With No In DateTraining)\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Count of Club Welfare Officers With In Date Safeguarding Training\"}},\"Function\":0},\"Name\":\"Sum(pbi Qualification Counts.Count of Club Welfare Officers With In Date Safeguarding Training)\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"columnWidth\":[{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"143.85299953711007D\"}}}},\"selector\":{\"metadata\":\"Sum(pbi Qualification Counts.Count of Referees Mentors Observers With No In Date Training)\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"103.33464119762056D\"}}}},\"selector\":{\"metadata\":\"Sum(pbi Qualification Counts.Count of League Officials With No In DateTraining)\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"239.83670330428168D\"}}}},\"selector\":{\"metadata\":\"Sum(pbi Qualification Counts.Count of Referees Mentors Observers With In Date Training)\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"145.0897295907865D\"}}}},\"selector\":{\"metadata\":\"Sum(pbi Qualification Counts.Count of Club Welfare Officers With In Date Safeguarding Training)\"}}]},\"vcObjects\":{\"stylePreset\":[{\"properties\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'Condensed'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 719.93,
+          "width": 1167.15,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}
